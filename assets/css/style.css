@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/pipes.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.content, .wrapper, .c-form {
+    background: #ffffff;
+    border: .5px solid #dddddd;
+    width: 960px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* Clearfix */
+.content:after, .wrapper:after, .c-form:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/**************** NAV ****************/
+
+.menu {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 80px;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 960px;
+    margin: auto;
+    line-height: 80px;
+    height: 80px;
+}
+
+h1 {
+    display: inline;
+    padding: 80px 30px 27px 30px;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+nav {
+    float: right;
+    height: 82px;
+}
+
+ul {
+    display: inline;
+    vertical-align: middle;
+}
+
+li {
+    display: inline;
+    border-right: .5px solid #777777;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #777777;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.navlink:hover {
+    transition: .5s;
+    background: #4aaaa5;
+    background-size: 100%;
+    color: white;
+}
+
+/****************************************/
+
+/**************** FOOTER ****************/
+
+.ftr {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #666666;
+    border-top: 7px solid #4aaaa5;
+    z-index: 100;
+}
+
+footer {
+    text-align: center;
+    color: #dddddd;
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+/****************************************/
+
+/*************** ABOUT ME ***************/
+
+hr {
+    border: 1px solid #dddddd;
+}
+
+#profile {
+    float: left;
+    margin: 10px 20px 20px 0px;
+}
+
+p {
+    display: inline;
+    line-height: 2;
+}
+
+/****************************************/
+
+/*************** PORTFOLIO **************/
+
+.grid {
+    width: 600px;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+#item {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    float: left;
+    margin: 30px;
+    margin-left: 0;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0;
+    margin-top: 145px;
+    background: #4aaaa5;
+    box-sizing: border-box;
+    width: 250px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+ #item:hover {
+    transition: .5s;
+    opacity: .6;
+}
+
+/****************************************/
+
+/************* CONTACT FORM *************/
+
+form {
+    line-height: 30px; 
+}
+
+input {
+    width: 97%;
+    padding: 12px;
+    margin-bottom: 25px;
+}
+
+textarea {
+    width: 97%;
+    padding: 12px;
+    height: 200px;
+}
+
+input:focus, textarea:focus {
+    outline-color: #4aaaa5;
+}
+
+.submit-btn {
+    color: white;
+    background: #4aaaa5;
+    margin: 15 15 15 0;
+    border: none;
+    width: 100px;
+}
+
+.submit-btn:hover {
+    transition: .5s;
+    opacity: .6;
+}
+
+/****************************************/
+
+
