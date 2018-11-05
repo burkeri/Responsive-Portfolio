@@ -318,40 +318,43 @@ nav {
         bottom: 15px;
     }
 
-/* ABOUT ME */
+/* PAGE CONTENT */
 
-    .content, .wrapper {
+    .content, .wrapper, .c-form {
         width: 590px;
         margin-top: 75px;
         margin-left: 25px;
     }
+
+/* PORTFOLIO */
 
     .grid {
         width: 300px;
     }
 
     #item {
-        width: 350px;
-        height: 300px;
-        margin-left: 80px;
+        width: 528px;
+        height: 478px;
+        margin-right: 200px;
     }
 
     img {
-        width: 350px;
-        height: 300px;
+        width: 528px;
+        height: 478px;
         padding: 0;
         margin: 0;
     }
 
     h4 {
         font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 24px;
         color: white;
         margin: 0;
-        margin-top: 220px;
+        margin-top: 400px;
         background: #4aaaa5;
         box-sizing: border-box;
-        width: 350px;
-        padding: 15px;
+        width: 528px;
+        padding: 20px;
         position: absolute;
         z-index: 1;
     }
